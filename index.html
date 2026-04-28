@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PT. Adiyasra Utama Solution - Solusi IT & Infrastruktur Terpercaya</title>
-    <meta name="description" content="PT. Adiyasra Utama Solution menyediakan jasa pengadaan dan instalasi solusi IT seperti CCTV, PABX/IPPABX, Internet, Server, dan Firewall untuk bisnis Anda.">
+    <title>PT. Adiyasra Utama Solution - IT Solution</title>
+    <meta name="description" content="System Integrator & Jasa IT Solution untuk Bisnis Anda. PT. Adiyasra Utama Solution.">
+    
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -22,14 +24,18 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="#" class="logo">
-                <span class="logo-text">Adiyasra<span class="text-accent">Solution</span></span>
+                <img src="assets/favicon.png" alt="AUS Logo" class="logo-img">
+                <span class="logo-text">Adiyasra<span class="text-dark">Solution</span></span>
             </a>
             <ul class="nav-links" id="nav-links">
                 <li><a href="#home" class="nav-link">Beranda</a></li>
                 <li><a href="#about" class="nav-link">Tentang Kami</a></li>
                 <li><a href="#services" class="nav-link">Layanan</a></li>
-                <li><a href="#contact" class="nav-link btn btn-primary">Hubungi Kami</a></li>
+                <li><a href="#portfolio" class="nav-link">Portofolio</a></li>
             </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary">Hubungi Kami</a>
+            </div>
             <div class="hamburger" id="hamburger">
                 <i class="fas fa-bars"></i>
             </div>
@@ -37,206 +43,231 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-bg">
-            <img src="assets/hero_bg.png" alt="IT Infrastructure Background">
-            <div class="overlay"></div>
-        </div>
-        <div class="container hero-content">
-            <h1 class="reveal fade-bottom">Solusi <span class="text-accent">Infrastruktur IT</span> Masa Depan</h1>
-            <p class="reveal fade-bottom delay-1">PT. Adiyasra Utama Solution hadir untuk memenuhi kebutuhan teknologi informasi bisnis Anda. Mulai dari instalasi jaringan, keamanan, hingga server handal.</p>
-            <div class="hero-btns reveal fade-bottom delay-2">
-                <a href="#services" class="btn btn-primary">Lihat Layanan Kami</a>
-                <a href="#contact" class="btn btn-outline">Konsultasi Gratis</a>
+    <section id="home" class="hero section-padding">
+        <!-- Animated Background Shape -->
+        <div class="hero-bg-anim"></div>
+        <div class="container hero-container">
+            <div class="hero-content reveal fade-left">
+                <h1>Layanan Terpadu<br>& <span class="text-primary">IT Solution</span><br><span class="text-dark">untuk Bisnis Anda</span></h1>
+                <p>Tujuan kami adalah memberi Anda dukungan layanan IT profesional yang mampu membantu bisnis Anda untuk maju lebih sukses melalui pengadaan dan instalasi infrastruktur handal.</p>
+                <a href="https://wa.me/6282213131135" class="btn btn-primary btn-large">
+                    <i class="fab fa-whatsapp"></i> Konsultasi Sekarang
+                </a>
+            </div>
+            <div class="hero-image reveal fade-right floating">
+                <img src="assets/hero_illustration.png" alt="IT Solution Illustration">
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about section-padding">
+    <section id="about" class="about section-padding bg-light">
         <div class="container">
             <div class="about-grid">
-                <div class="about-image reveal fade-left">
+                <div class="about-image reveal fade-left glow-effect">
                     <img src="assets/about_us.png" alt="Tim IT Profesional">
-                    <div class="experience-badge">
-                        <span class="number">Profesional</span>
-                        <span class="text">IT Solution</span>
-                    </div>
                 </div>
                 <div class="about-content reveal fade-right">
-                    <div class="section-title">
-                        <h2>Tentang <span class="text-accent">Kami</span></h2>
-                        <div class="title-line"></div>
+                    <p class="about-desc">
+                        <strong>PT. Adiyasra Utama Solution</strong> adalah penyedia jasa pengadaan dan instalasi di bidang solusi Teknologi Informasi. Kami berdedikasi untuk memberikan layanan terbaik dan solusi terdepan untuk infrastruktur digital bisnis Anda.
+                    </p>
+                    <a href="#services" class="btn btn-primary">Pelajari Selengkapnya <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="why-choose-us reveal fade-bottom">
+                <div class="section-title text-center">
+                    <h2>Mengapa <span class="text-dark">Memilih Kami?</span></h2>
+                    <p>Kami menawarkan solusi yang inovatif, layanan profesional, dan hasil yang terbaik untuk kebutuhan bisnis Anda.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-item futuristic-card">
+                        <div class="feature-icon pulse">
+                            <i class="fas fa-hand-rock"></i>
+                        </div>
+                        <h3>Expert</h3>
+                        <p>Kami memiliki tim yang berpengalaman untuk membantu bisnis anda.</p>
                     </div>
-                    <p><strong>PT. Adiyasra Utama Solution</strong> adalah perusahaan penyedia jasa dan pengadaan di bidang solusi Teknologi Informasi (IT). Kami berkomitmen untuk memberikan layanan terbaik dalam mengoptimalkan infrastruktur digital perusahaan Anda.</p>
-                    <p>Dengan tenaga ahli yang profesional dan berpengalaman, kami siap membantu perusahaan Anda beradaptasi dan berkembang di era digital yang dinamis, memastikan efisiensi, keamanan, dan keandalan sistem Anda.</p>
-                    
-                    <ul class="about-features">
-                        <li><i class="fas fa-check-circle text-accent"></i> Tenaga Ahli Tersertifikasi</li>
-                        <li><i class="fas fa-check-circle text-accent"></i> Solusi Efektif & Efisien</li>
-                        <li><i class="fas fa-check-circle text-accent"></i> Dukungan Teknis Handal</li>
-                    </ul>
+                    <div class="feature-item futuristic-card delay-1">
+                        <div class="feature-icon pulse">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Integrity</h3>
+                        <p>Kami menjaga kejujuran, transparansi, dan kepercayaan dalam setiap keputusan bisnis.</p>
+                    </div>
+                    <div class="feature-item futuristic-card delay-2">
+                        <div class="feature-icon pulse">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Support 24/7</h3>
+                        <p>Tim kami siap membantu anda memastikan setiap kebutuhan terpenuhi kapan saja.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services section-padding bg-darker">
+    <section id="services" class="services section-padding">
         <div class="container">
             <div class="section-title text-center reveal fade-bottom">
-                <h2>Layanan <span class="text-accent">Utama</span> Kami</h2>
-                <div class="title-line mx-auto"></div>
-                <p class="subtitle">Solusi terintegrasi untuk kebutuhan teknologi informasi bisnis Anda.</p>
+                <h2 class="text-primary">Layanan <span class="text-dark">Kami</span></h2>
+                <p>Layanan kami dirancang khusus untuk memenuhi kebutuhan bisnis Anda dengan solusi tepat, cepat, dan berkualitas tinggi.</p>
             </div>
 
             <div class="services-grid">
                 <!-- Service 1 -->
-                <div class="service-card reveal fade-bottom">
-                    <div class="service-icon">
+                <div class="service-card futuristic-card reveal fade-bottom">
+                    <div class="service-icon-wrapper pulse-hover">
                         <i class="fas fa-video"></i>
                     </div>
                     <h3>Instalasi CCTV</h3>
-                    <p>Sistem pengawasan keamanan yang canggih dengan kualitas gambar HD dan akses pantau jarak jauh secara real-time.</p>
+                    <p>Sistem pengawasan keamanan canggih dengan kualitas HD.</p>
+                    <a href="#contact" class="btn-outline-sm">Info Detail &gt;</a>
                 </div>
 
                 <!-- Service 2 -->
-                <div class="service-card reveal fade-bottom delay-1">
-                    <div class="service-icon">
+                <div class="service-card futuristic-card reveal fade-bottom delay-1">
+                    <div class="service-icon-wrapper pulse-hover">
                         <i class="fas fa-phone-volume"></i>
                     </div>
                     <h3>TELP PABX / IPPABX</h3>
-                    <p>Solusi komunikasi internal dan eksternal perusahaan yang efisien dengan teknologi telekomunikasi modern yang stabil.</p>
+                    <p>Solusi komunikasi internal dan eksternal perusahaan yang efisien.</p>
+                    <a href="#contact" class="btn-outline-sm">Info Detail &gt;</a>
                 </div>
 
                 <!-- Service 3 -->
-                <div class="service-card reveal fade-bottom delay-2">
-                    <div class="service-icon">
+                <div class="service-card futuristic-card reveal fade-bottom delay-2">
+                    <div class="service-icon-wrapper pulse-hover">
                         <i class="fas fa-wifi"></i>
                     </div>
                     <h3>Instalasi Internet & Jaringan</h3>
-                    <p>Perancangan dan implementasi infrastruktur jaringan internet lokal (LAN/WAN) dengan kecepatan dan stabilitas tinggi.</p>
+                    <p>Infrastruktur jaringan internet lokal (LAN/WAN) dengan kecepatan tinggi.</p>
+                    <a href="#contact" class="btn-outline-sm">Info Detail &gt;</a>
                 </div>
 
                 <!-- Service 4 -->
-                <div class="service-card reveal fade-bottom">
-                    <div class="service-icon">
+                <div class="service-card futuristic-card reveal fade-bottom">
+                    <div class="service-icon-wrapper pulse-hover">
                         <i class="fas fa-server"></i>
                     </div>
                     <h3>Pengadaan Server</h3>
-                    <p>Penyediaan dan konfigurasi server handal untuk manajemen data, aplikasi perusahaan, dan skalabilitas bisnis Anda.</p>
+                    <p>Penyediaan server handal untuk manajemen data dan aplikasi.</p>
+                    <a href="#contact" class="btn-outline-sm">Info Detail &gt;</a>
                 </div>
 
                 <!-- Service 5 -->
-                <div class="service-card reveal fade-bottom delay-1">
-                    <div class="service-icon">
+                <div class="service-card futuristic-card reveal fade-bottom delay-1">
+                    <div class="service-icon-wrapper pulse-hover">
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3>Keamanan & Firewall</h3>
-                    <p>Perlindungan aset digital perusahaan dari berbagai ancaman siber dengan implementasi firewall dan security system tingkat tinggi.</p>
+                    <p>Perlindungan aset digital dari ancaman siber dengan firewall.</p>
+                    <a href="#contact" class="btn-outline-sm">Info Detail &gt;</a>
                 </div>
 
                 <!-- Service 6 -->
-                <div class="service-card reveal fade-bottom delay-2">
-                    <div class="service-icon">
+                <div class="service-card futuristic-card reveal fade-bottom delay-2">
+                    <div class="service-icon-wrapper pulse-hover">
                         <i class="fas fa-boxes"></i>
                     </div>
                     <h3>Pengadaan Barang IT Lainnya</h3>
-                    <p>Penyediaan berbagai perangkat keras dan komponen IT lainnya sesuai dengan spesifikasi dan kebutuhan operasional bisnis Anda.</p>
+                    <p>Perangkat keras dan lunak IT sesuai dengan kebutuhan operasional.</p>
+                    <a href="#contact" class="btn-outline-sm">Info Detail &gt;</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta section-padding">
-        <div class="container text-center reveal fade-bottom">
-            <h2>Siap Meningkatkan Infrastruktur IT Anda?</h2>
-            <p>Diskusikan kebutuhan perusahaan Anda bersama tim ahli kami dan dapatkan penawaran terbaik.</p>
-            <a href="https://wa.me/6282213131135" class="btn btn-primary btn-large mt-3">
-                <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp
-            </a>
+    <!-- Project & Client/Partner Placeholder -->
+    <section id="portfolio" class="portfolio section-padding bg-light text-center">
+        <div class="container reveal fade-bottom">
+            <h2 class="text-primary">Projek <span class="text-dark">Kami</span></h2>
+            <p>Kami memiliki pengalaman mendalam untuk mengelola instalasi dan pengadaan proyek TI. Kami memastikan setiap solusi berfungsi secara optimal.</p>
+            <div class="projects-grid mt-4">
+                <div class="project-item glow-effect"><img src="assets/cctv_installation.png" alt="Instalasi CCTV"></div>
+                <div class="project-item glow-effect"><img src="assets/network_cabling.png" alt="Instalasi Jaringan"></div>
+                <div class="project-item glow-effect"><img src="assets/server_rack.png" alt="Pengadaan Server"></div>
+            </div>
+            <a href="#" class="btn btn-outline mt-5">Lihat Portofolio Lainnya</a>
+            
+            <h2 class="text-primary mt-5 pt-5 border-top">Partner <span class="text-dark">Kami</span></h2>
+            <p>Kami bekerjasama dengan brand-brand global terkemuka untuk memastikan kualitas infrastruktur IT Anda.</p>
+            <div class="clients-grid mt-4">
+                <div class="partner-logo"><span>HIKVISION</span></div>
+                <div class="partner-logo"><span>dahua</span></div>
+                <div class="partner-logo"><span>CISCO</span></div>
+                <div class="partner-logo"><span>Fortinet</span></div>
+                <div class="partner-logo"><span>MikroTik</span></div>
+                <div class="partner-logo"><span>Panasonic</span></div>
+                <div class="partner-logo"><span>DELL</span></div>
+                <div class="partner-logo"><span>hp</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner reveal fade-bottom">
+        <div class="container">
+            <div class="banner-box">
+                <h2>Transforming Technology into Business Value.</h2>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section-padding">
-        <div class="container">
-            <div class="section-title text-center reveal fade-bottom">
-                <h2>Hubungi <span class="text-accent">Kami</span></h2>
-                <div class="title-line mx-auto"></div>
-            </div>
-
-            <div class="contact-grid">
-                <div class="contact-info reveal fade-left">
-                    <h3>PT. Adiyasra Utama Solution</h3>
-                    <p>Kami siap membantu dan menjawab pertanyaan Anda seputar layanan IT yang kami sediakan.</p>
-                    
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="info-text">
-                            <h4>Alamat Kantor</h4>
-                            <p>KP.PAMAHAN, RT 002, RW 008,<br>Jatimekar, Jatiasih, Kota Bekasi,<br>Jawa Barat 17422</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="info-text">
-                            <h4>Telepon / WhatsApp</h4>
-                            <p>0822 1313 1135</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="info-text">
-                            <h4>Email</h4>
-                            <p>cs@adiyasrautamasolution.biz.id</p>
-                            <p>sales@adiyasrautamasolution.biz.id</p>
-                        </div>
-                    </div>
+    <section id="contact" class="contact section-padding text-center">
+        <div class="container reveal fade-bottom">
+            <h2 class="text-primary">Konsultasikan <span class="text-dark">Bisnis Anda!</span></h2>
+            <p>Di PT. Adiyasra Utama Solution, Kami berkomitmen untuk berkontribusi terhadap kemajuan digitalisasi dan IT bisnis Anda.</p>
+            
+            <div class="contact-info-grid mt-5">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt text-primary"></i>
+                    <h3 class="text-primary">Phone / WA</h3>
+                    <p>0822 1313 1135</p>
                 </div>
-
-                <div class="contact-form-container reveal fade-right">
-                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Pesan berhasil dikirim (Simulasi)');">
-                        <div class="form-group">
-                            <label for="name">Nama Lengkap</label>
-                            <input type="text" id="name" placeholder="Masukkan nama Anda" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="Masukkan email Anda" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subjek</label>
-                            <input type="text" id="subject" placeholder="Subjek pesan" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Pesan</label>
-                            <textarea id="message" rows="5" placeholder="Tuliskan kebutuhan atau pertanyaan Anda..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
-                    </form>
+                <div class="contact-item border-sides">
+                    <i class="far fa-envelope text-primary"></i>
+                    <h3 class="text-primary">Email</h3>
+                    <p>cs@adiyasrautamasolution.biz.id</p>
+                    <p>sales@adiyasrautamasolution.biz.id</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt text-primary"></i>
+                    <h3 class="text-primary">Alamat</h3>
+                    <p>KP.PAMAHAN, RT 002, RW 008,<br>Jatimekar, Jatiasih, Kota Bekasi,<br>Jawa Barat 17422</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container footer-bottom">
-            <p>&copy; 2026 PT. Adiyasra Utama Solution. All Rights Reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo-col">
+                    <div class="footer-logo">
+                        <img src="assets/favicon.png" alt="AUS Logo">
+                        <span>Adiyasra<br>Utama Solution</span>
+                    </div>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <a href="#about">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer-contact-col">
+                    <h4>Get In Touch</h4>
+                    <p><strong>WA \ Telp :</strong><br><span class="text-primary">0822 1313 1135</span> (Admin)</p>
+                    <p class="mt-2"><strong>Alamat :</strong><br>KP.PAMAHAN, RT 002, RW 008, Jatimekar, Jatiasih, Kota Bekasi, Jawa Barat 17422</p>
+                </div>
             </div>
         </div>
     </footer>
