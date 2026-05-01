@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adiyasrautamasolution.biz.id/sitemap.xml
